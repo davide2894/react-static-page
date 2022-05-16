@@ -1,18 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import './components/funFacts/FunFacts';
+import FunFacts from './components/funFacts/FunFacts';
 
 function App() {
   return (
     <div className="App">
       <img src={logo} width="200px"></img>
       <h1>Fun facts about React</h1>
-      <ul>
-            <li>Was first released in 2013</li>
-            <li>Was originally created by Jordan Walke</li>
-            <li>Has well over 100K stars on GitHub</li>
-            <li>Is maintained by Facebook</li>
-            <li>Powers thousands of enterprise apps, including mobile apps</li>
-        </ul>
+      <FunFacts></FunFacts>
     </div>
   );
 }
