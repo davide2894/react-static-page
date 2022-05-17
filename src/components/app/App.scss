@@ -1,0 +1,10 @@
+@import '../../shared';
+
+.App {
+    background-color: $light-black;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background: url('../../reactjs-icon-2.png') no-repeat right 50px center;
+    background-color: gray;
+}

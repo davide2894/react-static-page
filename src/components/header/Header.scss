@@ -1,18 +1,37 @@
-.menu {
+@import '../../_shared';
+
+.navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: rem(91px);
+    background-color: $dark-black;
 
-    &__items {
+    &__brand-wrapper {
+        display: flex;
+        align-items: center;
+        width: rem(158px);
+        height: rem(30px);
+        color: $white;
+        text-align: left;
+        margin-left: 10px;
+    }
+    
+    &__logo {
+        width: 40px;
+    }
+
+    &__brand {
+        font-size: 14px;
+        color: $blue-react;
+    }
+
+    &__breadcrumb {
         display: flex;
         align-items: end;
         list-style-type: none;
-    }
-
-    &__item {
         margin: 0 10px;
+        font-size: 14px;
     }
-}
-
-.logo {
-    width: 80px;
 }
