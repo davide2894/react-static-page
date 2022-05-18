@@ -5,6 +5,12 @@
     height: 100%;
     width: 100%;
     margin-left: 20px;
+    background: url('../../reactjs-icon-2.png') no-repeat right 50px center;
+    background-color: $light-black;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 75%;
+    height: 400px;
 }
 
 ul {
