@@ -11,6 +11,12 @@
     background-position-x: right;
     background-position-y: 75%;
     height: 400px;
+
+    h1 {
+        font-size: rem(25px);
+        font-weight: 700;
+        margin: 20px auto;
+    }
 }
 
 ul {
