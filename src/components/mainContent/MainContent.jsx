@@ -3,7 +3,7 @@ import './MainContent.scss'
 export default function MainContent() {
     return(
         <div className="mainContent">
-            <h1>Reasons I'm excited to learn React</h1>
+            <h2>Reasons I'm excited to learn React</h2>
             <ul>
                 <li>Was first released in 2013</li>
                 <li>Was originally created by Jordan Walke</li>

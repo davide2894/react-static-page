@@ -7,7 +7,7 @@ export default function Header() {
             <nav className="navbar">
                 <div className="navbar__brand-wrapper">
                     <img src={logo} className='logo navbar__logo'></img>
-                    <h2 className="navbar__brand">ReactFacts</h2>
+                    <h1 className="navbar__brand">ReactFacts</h1>
                 </div>
                 <h2 className='navbar__breadcrumb'>React Course - Project 1</h2>
             </nav>
